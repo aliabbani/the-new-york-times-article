@@ -9,13 +9,8 @@
             <link rel="stylesheet" href="style.css">
           </head>
 
-        <body>
-        
-            <header class="heading">
-                <a href="https://www.nytimes.com/"><b>The New York Times</b></a>
-            </header>
-        
-            <nav>
+        <body>    
+            <nav class="nav-menu">
                 <ul>
                     <li><a href="https://www.nytimes.com/">Home Page</a></li>
                     <li><a href="https://www.nytimes.com/section/world">World</a></li>
@@ -47,26 +42,31 @@
                     <input type="submit" value="Go!">
                 </form>
             </div>
-            <div><a href="https://www.nytimes.com/section/science/space"><b>SPACE & COSMOS</b></a>
+            <div id="space-cosmos"><a href="https://www.nytimes.com/section/science/space"><b>SPACE & COSMOS</b></a>
             </div>
-            <div>
+            <header class="heading">
+                <a href="https://www.nytimes.com/"><b>The New York Times</b></a>
+            </header>
+            <div id="right-button">
                 <button class="button-head" type="submit">SUBSCRIBE NOW</button>
                 <button class="button-head" type="submit">LOG IN</button>
             </div> 
         
             <!-- Here is our page's main content -->
-            <main>
+            
                  <div class ="title"><h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1></div>
-                 <figure>
+                 <figure class="first-img">
                     <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp" alt="first image">
-                    <figcaption>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times.</figcaption>
+                    <figcaption id="caption-first-img">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times.</figcaption>
                  </figure>
 
-                 <div>
-                    <P>By Dennis Overbye</p>
-                    <time datetime="2014-03-17" pubdate>March 17, 2014</time>
-                 </div>
-                 <div>
+            <main class="main-page">
+                 <section class="author-time">
+                    <P id="author">By Dennis Overbye</p>
+                    <time id ="time" datetime="2014-03-17" pubdate>March 17, 2014</time>
+                 </section>
+                 <hr>
+                 <div class="sign-up-class">
                      <p><b>SIGN UP FOR SCIENCE TIMES:</b> Get stories that capture the wonders of nature, the cosmos and the human body.</p>
 
                     <!-- Button to open the modal -->
@@ -259,8 +259,8 @@
         
              <!-- And here is our main footer -->
         
-            <footer>
-              <nav>
+            <footer class="footer">
+              <nav class="nav-news">
                   <h1>NEWS</h1>
                   <ul>
                     <li><a href="https://www.nytimes.com/">Home Page</a></li>
@@ -278,7 +278,7 @@
                     <li><a href="https://www.nytimes.com/section/corrections">corrections</a></li>
                   </ul>
               </nav>
-              <nav>
+              <nav class="nav-opinion">
                   <h1>OPINION</h1>
                   <ul>
                       <li><a href="https://www.nytimes.com/section/opinion">Today's Opinion</a></li>
@@ -290,7 +290,7 @@
                       <li><a href="https://www.nytimes.com/video/opinion">Video Opinion</a></li>
                   </ul>
               </nav>
-              <nav>
+              <nav class="nav-arts">
                   <h1>ARTS</h1>
                   <ul>
                       <li><a href="https://www.nytimes.com/section/arts">Today's Arts</a></li>
@@ -305,7 +305,7 @@
                       <li><a href="https://www.nytimes.com/video/arts">Video: Arts</a></li>
                   </ul>
               </nav>
-              <nav>
+              <nav class="nav-living">
                   <h1>LIVING</h1>
                   <ul>
                       <li><a href="https://www.nytimes.com/spotlight/at-home">At Home</a></li>
@@ -325,7 +325,7 @@
                       <li><a href="https://www.nytimes.com/section/travel">Travel</a></li>
                   </ul>
               </nav>
-              <nav>
+              <nav class="nav-more">
                 <h1>MORE</h1>
                 <ul>
                     <li><a href="https://www.nytimes.com/section/reader-center"></a>Reader Center</li>
@@ -345,7 +345,7 @@
                 </ul>
               </nav>
               <div class="vertical-line"></div>
-              <nav>
+              <nav class="nav-subscribe">
                   <h1>Subscribe</h1>
                   <ul>
                       <li><a href="https://subscribe.inyt.com/?utm_source=NYTimes.com&utm_medium=web&utm_campaign=footer&campaignId=6UXKJ"><b>Home Delivery</b></a></li>
@@ -365,8 +365,8 @@
                   </ul>
               </nav>
               <hr>
-              <nav>
-                  <ul id="on-line-footer">
+              <nav class=last-line-footer>
+                  <ul id="line-footer">
                       <li><a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice">© 2021 The New York Times Company</a></li>
                       <li><a href="https://www.nytco.com/">NYTCo</a></li>
                       <li><a href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us">Contact Us</a></li>
