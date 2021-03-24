@@ -94,3 +94,14 @@
   #sub-link-col{
     color:#0099ff;
   }
+  footer {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .footer-design{
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  
