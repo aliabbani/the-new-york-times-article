@@ -52,12 +52,13 @@
                      <p><b>SIGN UP FOR SCIENCE TIMES:</b> Get stories that capture the wonders of nature, the cosmos and the human body.</p>
 
                     <!-- Button to open the modal -->
-                    <button onclick="">Sign Up</button>
-
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+                    
                     <!-- The Modal (contains the Sign Up form) -->
                     <div id="sign-up" class="modal">
-                        <form class="modal-content">
-                        <div class="container">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                       <form class="modal-content" action="/action_page.php">
+                         <div class="container">
                             <h1>Sign Up</h1>
                             <p><b>Enter your information to receive this newsletter.</b></p>
                             <label for="email"><b>Email Address</b></label>
@@ -86,10 +87,10 @@
                     <p>On Monday, Dr. Guth’s starship came in. Radio astronomers reported that they had seen the beginning of the Big Bang, and that his hypothesis, known undramatically as inflation, looked right.</p>
                 </article>
                 <section class = "middle-subscription">
-                    <hr>
+                    <hr id= "small-line">
                     <p id="thanks-text">Thanks for reading The Times.</p>
-                    <a href="https://www.nytimes.com/subscription?campaignId=9L9L9" id="subscribe-link">Subscribe to The Times</a>
-                    <hr>
+                    <p id="subscribe-link"><a href="https://www.nytimes.com/subscription?campaignId=9L9L9" id="sub-link-col">Subscribe to The Times</a></p>
+                    <hr id= "small-line">
                 </section>
 
                 <article>
