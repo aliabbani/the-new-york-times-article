@@ -52,8 +52,26 @@
   .line-top {
     border-top: 1px solid black;
   }
+  .main-page {
+    margin: auto;
+    width: 50%;
+  }
   .title{
-    padding: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    padding-top: 80px;
+  }
+  .first-img{
+    width:100%;
+    height:100%;
+  }
+  .first-img-cap{
+    color: #666;
+    font-family: nyt-imperial,georgia,'time new roman',times,serif;
+    margin: 10px 20px 0;
+    font-size:12px;
+  }
+  .cite1{
+    color:#808080;
+    font-size:9px;
   }
