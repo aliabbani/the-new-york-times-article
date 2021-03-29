@@ -8,8 +8,9 @@ header{
   background-color: white;
   border-bottom: 1px solid #888  ;
   position:fixed;
-  margin: -21px;;
+  margin: -21px;
   font-size: 12px;
+
 }
 .nav-bar{
   display:flex;
@@ -17,6 +18,7 @@ header{
   position: fixed;
   justify-content: space-between;
   overflow: hidden;
+  padding:10px 10px;
   
 }
 .left-nav a {
@@ -39,4 +41,29 @@ header{
   float:right;
   display:inline;
   padding-right:15px;
+}
+.button{
+  color:white;
+  background-color:rgb(34, 93, 132);
+  border-radius: 3px;
+}
+.main{
+
+}
+.title{
+  float:none;
+
+}
+#h1{
+    color: black;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.9375rem;
+    line-height: 2.25rem;
+    margin: 0 20px 20px;
+    position: relative;
+    width: calc(100% - 40px);
+    max-width: 600px;
+
 }
