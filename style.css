@@ -44,26 +44,32 @@ header{
 }
 .button{
   color:white;
-  background-color:rgb(34, 93, 132);
+  background-color:rgb(57, 114, 158);
+  border: 1px solid #245f8c;
   border-radius: 3px;
+  font-weight: 650;
+  font-size: 12px;
+
 }
 .main{
-
+  width: 50%;
+  margin: auto;
 }
 .title{
-  float:none;
-
 }
 #h1{
     color: black;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 1.9375rem;
-    line-height: 2.25rem;
-    margin: 0 20px 20px;
+    font-size: 2rem;
     position: relative;
-    width: calc(100% - 40px);
-    max-width: 600px;
-
+    width: 100%;
+}
+.title{
+  background-color: white;
+  width: 100%;
+  border: 0 0;
+  padding: 30px;
+  margin: 10px;
 }
