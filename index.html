@@ -10,16 +10,16 @@
         </head>
         <body>   
             <header>
-              <div class="flex flex-head header line-bottom position">
-                <div class="flex flex-head">
+              <div class="nav-bar">
+                <div class="left-nav">
                      <a ><i class="fas fa-bars"></i></a>
                      <a ><i class="fas fa-search"></i></a>
                      <a href="/" class="cosmos-link"><b>SPACE & COSMOS</b></a>
                  </div>
-                 <div class="flex flex-head">
-                     <a href="#"><img src="images/NYTLogo.png" alt="logo" class="logo"></a>
+                 <div class="logo">
+                   <img id="logo-image" src="images/logo.png" alt="logo">
                  </div>
-                 <div class="flex flex-head">
+                 <div class="right-nav">
                      <button class="button" type="submit">SUBSCRIBE NOW</button>
                      <button class="button" type="submit">LOG IN</button>
                  </div>    
@@ -27,10 +27,10 @@
             </header>
 
             <!-- Here is our page's main content -->        
-            <main class="main-page">
+            <main class="main">
                  <div class ="title">
                      <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
-                     <hr>
+                    
                      <div>
                         <i class="fab fa-facebook-f"></i>
                         <i class="fab fa-whatsapp"></i>
@@ -43,8 +43,8 @@
                  </div>
                  <figure >
                         <img src="images/titleimage.jpg" alt="first image" class="first-img">
-                        <figcaption class="first-img">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</figcaption>
-                        <cite class="cite1">Rick Friedman for The New York Times</cite>
+                        <figcaption class="desc">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</figcaption>
+                        <cite class="cite">Rick Friedman for The New York Times</cite>
                  </figure>
                  <section class="author-time">
                     <P id="author"><b>By Dennis Overbye</b></p>
@@ -172,9 +172,9 @@
                 </article>
 
                 <figure class="third-image">
-                    <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-jumbo.jpg?quality=90&auto=webp" alt="third image">
-                    <figcaption>The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.</figcaption>
-                    <p>Steffen Richter/Associated Press</p>
+                    <img src="images/thirdimage.jpg" alt="third image">
+                    <figcaption class="desc">The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.</figcaption>
+                    <cite class="cite">Steffen Richter/Associated Press</cite>
                 </figure>
 
                 <article>
@@ -202,16 +202,22 @@
                     <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”</p>
                 </article>
 
-                <section>
-                    <p>A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="https://www.parsintl.com/publication/the-new-york-times/">Order Reprints</a> | <a href="https://www.nytimes.com/section/todayspaper">Today’s Paper</a> | <a href="https://www.nytimes.com/subscription?campaignId=48JQY">Subscribe</a></p>
-                </section>
-                <section>
+                <div class="a">
+                    A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="/">Order Reprints</a> | <a href="/">Today’s Paper</a> | <a href="/">Subscribe</a>
+                </div>
+                <div comment-and-icons>
+                    <div>
+                        <button class="comment-button" type="button">READ 615 COMMENTS</button>
+                    </div>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-share"></i>
+                    </div>
+                </div>
 
-                </section>
-                <hr>
-
-  
-                
             </main>
         
              <!-- And here is our main footer -->
