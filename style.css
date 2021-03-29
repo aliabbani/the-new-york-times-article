@@ -35,7 +35,7 @@ header{
 }
 #logo-image{
   width:200px;
-  
+
 }
 .right-nav{
   float:right;
@@ -49,13 +49,10 @@ header{
   border-radius: 3px;
   font-weight: 650;
   font-size: 12px;
-
 }
 .main{
   width: 50%;
   margin: auto;
-}
-.title{
 }
 #h1{
     color: black;
@@ -63,7 +60,7 @@ header{
     font-weight: 700;
     font-style: italic;
     font-size: 2rem;
-    position: relative;
+    position: static;
     width: 100%;
 }
 .title{
@@ -72,4 +69,64 @@ header{
   border: 0 0;
   padding: 30px;
   margin: 10px;
+}
+.icons-up{
+  width:100%;
+  position:static;
+  border: 0 0;
+  padding:20px;
+  margin:10px;
+  border-top:1px solid silver;
+  display:flex;
+}
+.first-img{
+  display: block;
+  margin: auto;
+  width: 160%;
+}
+.desc{
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-size:15px;
+  line-height: 20px;
+  text-align:left;
+  word-spacing: 0px;
+}
+cite{
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-size:13px;
+  letter-spacing:0.13px;
+  line-height: 18px;
+  color:gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  font-size: 16px;
+  line-height: 16px;
+  color:black;
+}
+.footer-design{
+  display:flex;
+  width:80%;
+  margin:auto;
+  justify-content: space-between;
+  color:black;
+  font-size:16px;
+}
+ul{
+  list-style-type: none;
+  color:black;
 }
