@@ -260,9 +260,7 @@ article{
   margin:auto;
   justify-content: space-between;
   padding:10px 30px 10px 25px;
-  font-size:16px;
   border-top: 1px solid silver;
-  border-bottom: 1px solid silver;
 }
 .left-footer{
   width:200px;
@@ -367,5 +365,28 @@ article{
 }
 .footer8 a{
   color:black;
+  text-decoration: none;
+}
+
+
+.copyright{
+  font-size: 11px;
+  line-height: 11px;
+  text-align:center;
+  color:gray ;
+  display:flex;
+  width:80%;
+  height: 60px;
+  margin:auto;
+
+  border-top: 1px solid silver;
+}
+
+.copyright ul {
+  list-style: none;
+  flex-direction:column;
+}
+.copyright a{
+  color:gray;
   text-decoration: none;
 }
