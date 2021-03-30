@@ -129,11 +129,29 @@ article{
 }
 .a-side{
   display:flex;
+  flex-direction:column;
+  width: 210px;
+  height:950px;
+  position:absolute;
+  top: 1700px;
+  right: 50px;
+
+}
+.aside-img{
+  flex-direction:row;
+}
+.aside-img img{
+  width:80px;
+  height: 80px;
+}
+.aside-img a{
+  color:black;
+  
 }
 
-
-
-
+#aside-title{
+  border-bottom: 1px solid silver;
+}
 
 
 
