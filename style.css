@@ -4,13 +4,13 @@
 }
 header{
   width: 1590px; ;
-  height:35px;
+  height:50px;
   background-color: white;
   border-bottom: 1px solid #888  ;
   position:fixed;
-  margin: -21px;
+  margin: -10px;
   font-size: 12px;
-
+  z-index: 1;
 }
 .nav-bar{
   display:flex;
@@ -19,12 +19,11 @@ header{
   justify-content: space-between;
   overflow: hidden;
   padding:10px 10px;
-  
+  align-items: center;
 }
 .left-nav a {
   float:left;
   display:inline;
-  
   padding-left:25px;
   color:black;
   text-decoration: none;
@@ -35,7 +34,6 @@ header{
 }
 #logo-image{
   width:200px;
-
 }
 .right-nav{
   float:right;
@@ -44,7 +42,7 @@ header{
 }
 .button{
   color:white;
-  background-color:rgb(57, 114, 158);
+  background-color:rgb(75, 131, 173);
   border: 1px solid #245f8c;
   border-radius: 3px;
   font-weight: 650;
@@ -103,8 +101,9 @@ header{
   line-height: 20px;
   text-align:left;
   word-spacing: 0px;
+  color:#474747;
 }
-cite{
+.cite{
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
   font-size:13px;
   letter-spacing:0.13px;
@@ -206,27 +205,76 @@ article{
   top:3350px;
   left:950px;
 }
+.video-iframe{
+  width:670px;
+  height: 320px;
+}
+.third-img{
+  width:670px;
+  height:400px;
+}
+.a{
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-size:12px;
+  line-height: 20px;
+  text-align:left;
+  word-spacing: 0px;
+  color:gray;
+}
+.a a{
+  color:#474747;
+}
+.comment-button{
+  width:320px;
+  height: 30px;
+  color:white;
+  background-color:rgb(75, 131, 173);
+  border: (0.5px solid rgb(43, 85, 117));
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 650;
+}
+.comment-and-icons{
+  display:flex;
+  justify-content: space-between; 
+  margin:auto;
+  width:600px;
+  height: 80px;
+  padding-top: 10px;
+  padding-left:20px;
+  padding-right:30px;
+}
+.comment-icons i{
+  padding-left:20px;
+}
 
 
 
 
 
 
-
-.footer {
+.footer-design{
   font-size: 16px;
   line-height: 16px;
   color:black;
-}
-.footer-design{
   display:flex;
-  width:80%;
+  width:90%;
+  height: 430px;
   margin:auto;
   justify-content: space-between;
+  padding:10px 30px 10px 25px;
   color:black;
   font-size:16px;
+  border: 1px solid black;
 }
-ul{
-  list-style-type: none;
-  color:black;
+.left-footer{
+  width:200px;
+  height: 25px;
+  float: left;
+}
+#logo-footer{
+  width:200px;
+}
+.right-footer{
+  float:right;
 }
