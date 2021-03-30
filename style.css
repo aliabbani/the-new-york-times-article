@@ -92,9 +92,6 @@ header{
   height:531px;
 
 }
-.first-figure{
-
-}
 .desc{
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
   font-size:15px;
@@ -263,9 +260,9 @@ article{
   margin:auto;
   justify-content: space-between;
   padding:10px 30px 10px 25px;
-  color:black;
   font-size:16px;
-  border: 1px solid black;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
 }
 .left-footer{
   width:200px;
@@ -276,5 +273,99 @@ article{
   width:200px;
 }
 .right-footer{
-  float:right;
+  display:flex;
+  position:absolute;
+  width:250px;
+  top:9280px;
+  left:1150px;
+}
+.footer3{
+  display:flex;
+  position:absolute;
+  width:250px;
+  top:9300px;
+  left:100px;
+  line-height: 23px;
+}
+.footer4{
+  display:flex;
+  position:absolute;
+  width:250px;
+  top:9300px;
+  left:300px;
+  line-height: 23px;
+}
+.footer5{
+  display:flex;
+  position:absolute;
+  width:250px;
+  top:9300px;
+  left:500px;
+  line-height: 23px;
+}
+.footer6{
+  display:flex;
+  position:absolute;
+  width:250px;
+  top:9300px;
+  left:700px;
+  line-height: 23px;
+}
+.footer7{
+  display:flex;
+  position:absolute;
+  width:250px;
+  top:9300px;
+  left:900px;
+  line-height: 23px;
+}
+.footer8{
+  display:flex;
+  position:absolute;
+  width:250px;
+  top:9300px;
+  left:1100px;
+  line-height: 23px;
+}
+.footer3 ul {
+  list-style: none;
+}
+.footer3 a{
+  color:black;
+  text-decoration: none;
+}
+.footer4 ul {
+  list-style: none;
+}
+.footer4 a{
+  color:black;
+  text-decoration: none;
+}
+.footer5 ul {
+  list-style: none;
+}
+.footer5 a{
+  color:black;
+  text-decoration: none;
+}
+.footer6 ul {
+  list-style: none;
+}
+.footer6 a{
+  color:black;
+  text-decoration: none;
+}
+.footer7 ul {
+  list-style: none;
+}
+.footer7 a{
+  color:black;
+  text-decoration: none;
+}
+.footer8 ul {
+  list-style: none;
+}
+.footer8 a{
+  color:black;
+  text-decoration: none;
 }
