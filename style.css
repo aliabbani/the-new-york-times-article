@@ -378,13 +378,15 @@ article{
   width:80%;
   height: 60px;
   margin:auto;
-
+  justify-content: space-between;
   border-top: 1px solid silver;
+  padding:0px 200px;
 }
 
 .copyright ul {
   list-style: none;
-  flex-direction:column;
+  display:flex;
+  padding:10px 0;
 }
 .copyright a{
   color:gray;
