@@ -145,7 +145,7 @@ header {
   width: 210px;
   height: 950px;
   position: absolute;
-  top: 1700px;
+  top: 1400px;
   right: 50px;
 }
 
@@ -171,7 +171,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 3000px;
+  top: 2450px;
   left: 170px;
 }
 
@@ -179,7 +179,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 3000px;
+  top: 2450px;
   left: 430px;
 }
 
@@ -187,7 +187,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 3000px;
+  top: 2450px;
   left: 690px;
 }
 
@@ -195,7 +195,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 3000px;
+  top: 2450px;
   left: 950px;
 }
 
@@ -203,7 +203,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 3350px;
+  top: 2850px;
   left: 170px;
 }
 
@@ -211,7 +211,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 3350px;
+  top: 2850px;
   left: 430px;
 }
 
@@ -219,7 +219,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 3350px;
+  top: 2850px;
   left: 690px;
 }
 
@@ -227,7 +227,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 3350px;
+  top: 2850px;
   left: 950px;
 }
 
@@ -307,7 +307,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 8210px;
+  top: 6520px;
   left: 1150px;
 }
 
@@ -315,7 +315,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 8240px;
+  top: 6560px;
   left: 100px;
   line-height: 23px;
 }
@@ -324,7 +324,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 8240px;
+  top: 6560px;
   left: 300px;
   line-height: 23px;
 }
@@ -333,7 +333,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 8240px;
+  top: 6560px;
   left: 500px;
   line-height: 23px;
 }
@@ -342,7 +342,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 8240px;
+  top: 6560px;
   left: 700px;
   line-height: 23px;
 }
@@ -351,7 +351,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 8240px;
+  top: 6560px;
   left: 900px;
   line-height: 23px;
 }
@@ -360,7 +360,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 8240px;
+  top: 6560px;
   left: 1100px;
   line-height: 23px;
   border-left: 1px solid silver;
