@@ -337,7 +337,7 @@ header {
   display: flex;
   position: absolute;
   padding: 20px 20px;
-  top: 6550px;
+  top: 6600px;
   right: 70px;
   width: 200px;
   height: 650px;
@@ -382,7 +382,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 7470px;
+  top: 7500px;
   left: 1150px;
 }
 
@@ -390,7 +390,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 7500px;
+  top: 7530px;
   left: 100px;
   line-height: 23px;
 }
@@ -399,7 +399,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 7500px;
+  top: 7530px;
   left: 300px;
   line-height: 23px;
 }
@@ -408,7 +408,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 7500px;
+  top: 7530px;
   left: 500px;
   line-height: 23px;
 }
@@ -417,7 +417,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 7500px;
+  top: 7530px;
   left: 700px;
   line-height: 23px;
 }
@@ -426,7 +426,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 7500px;
+  top: 7530px;
   left: 900px;
   line-height: 23px;
 }
@@ -435,7 +435,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 7500px;
+  top: 7530px;
   left: 1100px;
   line-height: 23px;
   border-left: 1px solid silver;
