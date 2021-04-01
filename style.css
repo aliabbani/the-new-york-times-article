@@ -300,6 +300,13 @@ header {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.newsletters img {
+  width: 220px;
+  height: 131px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
 .suggest-title {
   border-top: black 1px solid;
   width: 100%;
@@ -312,6 +319,12 @@ header {
   width: 270px;
   height: 320px;
   margin: 5px;
+}
+
+.suggest-box p,
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .suggest-box a img {
@@ -337,12 +350,6 @@ header {
 .suggest-latest2 {
   padding-left: 10px;
   padding-top: 35px;
-}
-
-.suggest-box p,
-a {
-  text-decoration: none;
-  color: black;
 }
 
 .suggest {
@@ -376,13 +383,6 @@ a {
   margin-top: 20px;
   line-height: 20px;
   font-size: 15px;
-}
-
-.newsletters img {
-  width: 220px;
-  height: 131px;
-  padding-left: 15px;
-  padding-top: 15px;
 }
 
 .most-like {
@@ -430,6 +430,12 @@ a {
 
 #logo-footer {
   width: 200px;
+}
+
+.copyright a {
+  color: gray;
+  text-decoration: none;
+  margin: 5px;
 }
 
 .right-footer,
@@ -531,12 +537,6 @@ a {
   list-style: none;
   display: flex;
   padding: 10px 0;
-}
-
-.copyright a {
-  color: gray;
-  text-decoration: none;
-  margin: 5px;
 }
 
 .BL {
