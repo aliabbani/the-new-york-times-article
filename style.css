@@ -234,6 +234,7 @@ header {
 .video-iframe {
   width: 670px;
   height: 320px;
+  border: 0;
 }
 
 .third-img {
