@@ -64,6 +64,10 @@ header {
   align-items: center;
 }
 
+.font-family {
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+}
+
 #h1 {
   color: black;
   font-weight: 700;
@@ -71,10 +75,6 @@ header {
   font-size: 2rem;
   position: static;
   width: 100%;
-}
-
-.font-family {
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
 .title {
@@ -147,16 +147,22 @@ header {
   height: 950px;
   position: absolute;
   top: 1400px;
-  right: 50px;
+  right: 90px;
 }
 
 .aside-img img {
   width: 80px;
   height: 80px;
+  padding-bottom: 10px;
 }
 
 .aside-img a {
   color: black;
+  text-decoration: none;
+}
+
+.aside-img p {
+  padding-left: 100px;
 }
 
 #aside-title {
@@ -181,43 +187,49 @@ header {
   width: 250px;
 }
 
-.img-cap1 {
+.img-cap1,
+.img-cap2,
+.img-cap3,
+.img-cap4 {
   top: 2500px;
+}
+
+.img-cap5,
+.img-cap6,
+.img-cap7,
+.img-cap8 {
+  top: 2850px;
+}
+
+.img-cap1 {
   left: 170px;
 }
 
 .img-cap2 {
-  top: 2500px;
   left: 430px;
 }
 
 .img-cap3 {
-  top: 2500px;
   left: 690px;
 }
 
 .img-cap4 {
-  top: 2500px;
   left: 950px;
 }
 
 .img-cap5 {
-  top: 2850px;
   left: 170px;
 }
 
 .img-cap6 {
-  top: 2850px;
   left: 430px;
 }
 
 .img-cap7 {
-  top: 2850px;
   left: 690px;
 }
 
 .img-cap8 {
-  top: 2850px;
   left: 950px;
 }
 
@@ -239,7 +251,7 @@ header {
   color: gray;
 }
 
-.a a {
+.version a {
   color: #474747;
 }
 
@@ -379,43 +391,46 @@ header {
   width: 250px;
 }
 
+.footer3,
+.footer4,
+.footer5,
+.footer6,
+.footer7,
+.footer8 {
+  top: 7550px;
+}
+
 .right-footer {
   top: 7520px;
   left: 1150px;
 }
 
 .footer3 {
-  top: 7550px;
   left: 100px;
   line-height: 23px;
 }
 
 .footer4 {
-  top: 7550px;
   left: 300px;
   line-height: 23px;
 }
 
 .footer5 {
-  top: 7550px;
   left: 500px;
   line-height: 23px;
 }
 
 .footer6 {
-  top: 7550px;
   left: 700px;
   line-height: 23px;
 }
 
 .footer7 {
-  top: 7550px;
   left: 900px;
   line-height: 23px;
 }
 
 .footer8 {
-  top: 7550px;
   left: 1100px;
   line-height: 23px;
   border-left: 1px solid silver;
