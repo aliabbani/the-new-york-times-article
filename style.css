@@ -279,6 +279,77 @@ header {
   padding-left: 20px;
 }
 
+/* newsletters section */
+
+/* newslatter section */
+.newsletters{
+  display: flex;
+  flex-wrap: wrap;
+  width:1000px;
+  height:880px;
+  margin: 45px 193px 0 193px;
+  padding: 20px 50px 0 50px;
+  font-size:16px;
+  line-height: 16px;
+  font-family:'Times New Roman', Times, serif;
+}
+.newsletters img{
+  width:220px;
+  height: 131px;
+  padding-left:15px;
+  padding-top:15px;
+}
+
+.news-more{
+  width:820px;
+  height:500px;
+  display:grid;
+  grid-template-columns: 25% 25% 25%;
+  column-gap: 50px;
+  
+}
+.news1{
+  width:272px;
+  height:250px;
+  padding-left:35px;
+}
+.news-p{
+  padding-left:25px;
+}
+.news-more2{
+  display:flex;
+  width:272px;
+  padding-top:30px;
+
+}
+
+.news2{
+  width:272px;
+  height:250px;
+  padding-left:35px;
+}
+
+.most-like {
+  display: flex;
+  position: absolute;
+  padding: 20px 20px;
+  top: 6550px;
+  right: 70px;
+  width: 200px;
+  height: 650px;
+
+}
+.news-more3-border{
+  border-top:1px solid silver;
+  padding:10px 10px;
+  margin: 5px;
+}
+.news-more3-border a{
+  text-decoration: none;
+  color:black;
+
+}
+
 /* footer section */
 .footer-design {
   font-size: 16px;
@@ -307,7 +378,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 6520px;
+  top: 7470px;
   left: 1150px;
 }
 
@@ -315,7 +386,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 6560px;
+  top: 7500px;
   left: 100px;
   line-height: 23px;
 }
@@ -324,7 +395,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 6560px;
+  top: 7500px;
   left: 300px;
   line-height: 23px;
 }
@@ -333,7 +404,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 6560px;
+  top: 7500px;
   left: 500px;
   line-height: 23px;
 }
@@ -342,7 +413,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 6560px;
+  top: 7500px;
   left: 700px;
   line-height: 23px;
 }
@@ -351,7 +422,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 6560px;
+  top: 7500px;
   left: 900px;
   line-height: 23px;
 }
@@ -360,7 +431,7 @@ header {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 6560px;
+  top: 7500px;
   left: 1100px;
   line-height: 23px;
   border-left: 1px solid silver;
