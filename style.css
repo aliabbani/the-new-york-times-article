@@ -66,12 +66,15 @@ header {
 
 #h1 {
   color: black;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
   font-size: 2rem;
   position: static;
   width: 100%;
+}
+
+.font-family {
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
 .title {
@@ -104,7 +107,6 @@ header {
 }
 
 .desc {
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-size: 15px;
   line-height: 20px;
   text-align: left;
@@ -112,7 +114,6 @@ header {
 }
 
 .cite {
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-size: 13px;
   letter-spacing: 0.13px;
   line-height: 18px;
@@ -167,66 +168,55 @@ header {
   height: 755px;
 }
 
-.img-cap1 {
+.img-cap1,
+.img-cap2,
+.img-cap3,
+.img-cap4,
+.img-cap5,
+.img-cap6,
+.img-cap7,
+.img-cap8 {
   display: flex;
   position: absolute;
   width: 250px;
-  top: 2450px;
+}
+
+.img-cap1 {
+  top: 2500px;
   left: 170px;
 }
 
 .img-cap2 {
-  display: flex;
-  position: absolute;
-  width: 250px;
-  top: 2450px;
+  top: 2500px;
   left: 430px;
 }
 
 .img-cap3 {
-  display: flex;
-  position: absolute;
-  width: 250px;
-  top: 2450px;
+  top: 2500px;
   left: 690px;
 }
 
 .img-cap4 {
-  display: flex;
-  position: absolute;
-  width: 250px;
-  top: 2450px;
+  top: 2500px;
   left: 950px;
 }
 
 .img-cap5 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 2850px;
   left: 170px;
 }
 
 .img-cap6 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 2850px;
   left: 430px;
 }
 
 .img-cap7 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 2850px;
   left: 690px;
 }
 
 .img-cap8 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 2850px;
   left: 950px;
 }
@@ -242,8 +232,7 @@ header {
   height: 400px;
 }
 
-.a {
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+.version {
   font-size: 12px;
   line-height: 20px;
   text-align: left;
@@ -378,118 +367,74 @@ header {
   width: 200px;
 }
 
-.right-footer {
+.right-footer,
+.footer3,
+.footer4,
+.footer5,
+.footer6,
+.footer7,
+.footer8 {
   display: flex;
   position: absolute;
   width: 250px;
+}
+
+.right-footer {
   top: 7520px;
   left: 1150px;
 }
 
 .footer3 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 7550px;
   left: 100px;
   line-height: 23px;
 }
 
 .footer4 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 7550px;
   left: 300px;
   line-height: 23px;
 }
 
 .footer5 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 7550px;
   left: 500px;
   line-height: 23px;
 }
 
 .footer6 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 7550px;
   left: 700px;
   line-height: 23px;
 }
 
 .footer7 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 7550px;
   left: 900px;
   line-height: 23px;
 }
 
 .footer8 {
-  display: flex;
-  position: absolute;
-  width: 250px;
   top: 7550px;
   left: 1100px;
   line-height: 23px;
   border-left: 1px solid silver;
 }
 
-.footer3 ul {
-  list-style: none;
-}
-
-.footer3 a {
-  color: black;
-  text-decoration: none;
-}
-
-.footer4 ul {
-  list-style: none;
-}
-
-.footer4 a {
-  color: black;
-  text-decoration: none;
-}
-
-.footer5 ul {
-  list-style: none;
-}
-
-.footer5 a {
-  color: black;
-  text-decoration: none;
-}
-
-.footer6 ul {
-  list-style: none;
-}
-
-.footer6 a {
-  color: black;
-  text-decoration: none;
-}
-
-.footer7 ul {
-  list-style: none;
-}
-
-.footer7 a {
-  color: black;
-  text-decoration: none;
-}
-
+.footer3 ul,
+.footer4 ul,
+.footer5 ul,
+.footer6 ul,
+.footer7 ul,
 .footer8 ul {
   list-style: none;
 }
 
+.footer3 a,
+.footer4 a,
+.footer5 a,
+.footer6 a,
+.footer7 a,
 .footer8 a {
   color: black;
   text-decoration: none;
@@ -517,6 +462,7 @@ header {
 .copyright a {
   color: gray;
   text-decoration: none;
+  margin: 5px;
 }
 
 .BL {
