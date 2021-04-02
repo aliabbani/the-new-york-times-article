@@ -167,24 +167,15 @@ header {
   text-decoration: none;
 }
 
-.aside-img p:hover {
-  text-decoration: underline;
-}
-
-.suggest-box a p {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.aside-img p:hover {
-  text-decoration: underline;
-}
-
 .aside-img p {
   padding-left: 100px;
   float: left;
   margin-top: -90px;
   color: #241f1f;
+}
+
+.aside-img p:hover {
+  text-decoration: underline;
 }
 
 #aside-title {
@@ -314,7 +305,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
-  height: 880px;
   margin: 45px 193px 0 193px;
   padding: 20px 50px 0 50px;
   font-size: 16px;
@@ -429,8 +419,6 @@ header {
   justify-content: space-between;
   padding: 10px 30px 10px 25px;
   border-top: 1px solid silver;
-  position: absolute;
-  top: 8200px;
 }
 
 .left-footer {
@@ -467,12 +455,12 @@ header {
 .footer6,
 .footer7,
 .footer8 {
-  top: 20px;
+  top: 8200px;
   line-height: 23px;
 }
 
 .right-footer {
-  top: 0;
+  top: 8200px;
   left: 1150px;
 }
 
@@ -483,7 +471,7 @@ header {
 }
 
 .footer3 {
-  left: 0;
+  left: 30px;
 }
 
 .footer4 {
@@ -545,9 +533,6 @@ header {
   height: 60px;
   margin: auto;
   border-top: 1px solid silver;
-  position: absolute;
-  top: 8650px;
-  left: 75px;
 }
 
 .copyright ul {
