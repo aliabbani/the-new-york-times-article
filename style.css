@@ -167,6 +167,10 @@ header {
   text-decoration: none;
 }
 
+.aside-img p:hover {
+  text-decoration: underline;
+}
+
 .aside-img p {
   padding-left: 100px;
   float: left;
