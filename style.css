@@ -171,6 +171,15 @@ header {
   text-decoration: underline;
 }
 
+.suggest-box a p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.aside-img p:hover {
+  text-decoration: underline;
+}
+
 .aside-img p {
   padding-left: 100px;
   float: left;
@@ -332,11 +341,6 @@ header {
   width: 270px;
   height: 320px;
   margin: 5px;
-}
-
-.suggest-box a p {
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .suggest-box a img {
