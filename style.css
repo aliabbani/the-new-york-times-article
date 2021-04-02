@@ -169,6 +169,9 @@ header {
 
 .aside-img p {
   padding-left: 100px;
+  float: left;
+  margin-top: -90px;
+  color: #241f1f;
 }
 
 #aside-title {
@@ -463,6 +466,12 @@ header {
 .right-footer {
   top: 0;
   left: 1150px;
+}
+
+.right-footer a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 12px;
 }
 
 .footer3 {
