@@ -327,16 +327,14 @@ header {
   margin: 5px;
 }
 
-
+.suggest-box a p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .suggest-box a img {
   width: 80px;
   height: 80px;
-}
-
-.suggest-box a p {
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .suggest-latest {
