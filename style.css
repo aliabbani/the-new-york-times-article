@@ -10,7 +10,7 @@ a {
 }
 
 header {
-  width: 1590px;
+  width: 100%;
   height: 50px;
   background-color: white;
   border-bottom: 1px solid #888;
@@ -108,8 +108,11 @@ header {
 .first-img {
   display: block;
   margin: auto;
-  width: 945px;
-  height: 531px;
+  width: 70vw;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .desc {
