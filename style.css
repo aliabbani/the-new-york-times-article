@@ -3,6 +3,12 @@
   background-color: white;
 }
 
+.suggest-box p,
+a {
+  text-decoration: none;
+  color: black;
+}
+
 header {
   width: 1590px;
   height: 50px;
@@ -321,11 +327,7 @@ header {
   margin: 5px;
 }
 
-.suggest-box p,
-a {
-  text-decoration: none;
-  color: black;
-}
+
 
 .suggest-box a img {
   width: 80px;
